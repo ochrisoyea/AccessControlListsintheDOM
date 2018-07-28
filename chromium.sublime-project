@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "name": "chromium",
+      "path": "src",
+      "file_exclude_patterns":
+      [
+        "*.vcproj",
+        "*.vcxproj",
+        "*.sln",
+        "*.gitignore",
+        "*.gitmodules",
+        "*.vcxproj.*",
+      ],
+      "folder_exclude_patterns":
+      [
+        "build",
+        "out",
+        "third_party",
+        ".git",
+      ],
+    },
+    {
+      "name": "Generated Files",
+      "path": "src/out/Debug/gen",
+    },
+{
+  "name": "blink",
+  "path": "src/third_party/blink",
+},
+  ],
+}

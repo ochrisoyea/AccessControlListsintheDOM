@@ -1,0 +1,29 @@
+{
+  "layers": [
+    {
+      "name": "LayoutView #document",
+      "bounds": [800, 600],
+      "contentsOpaque": true,
+      "backgroundColor": "#FFFFFF",
+      "paintInvalidations": [
+        {
+          "object": "LayoutTable (relative positioned) TABLE",
+          "rect": [8, 206, 110, 198],
+          "reason": "chunk appeared"
+        },
+        {
+          "object": "LayoutTable (relative positioned) TABLE",
+          "rect": [11, 206, 74, 181],
+          "reason": "chunk disappeared"
+        }
+      ]
+    }
+  ],
+  "objectPaintInvalidations": [
+    {
+      "object": "LayoutTableRow TR id='target'",
+      "reason": "style change"
+    }
+  ]
+}
+

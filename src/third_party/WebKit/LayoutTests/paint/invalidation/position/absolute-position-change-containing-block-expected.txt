@@ -1,0 +1,43 @@
+{
+  "layers": [
+    {
+      "name": "LayoutView #document",
+      "bounds": [800, 600],
+      "drawsContent": false,
+      "backgroundColor": "#FFFFFF"
+    },
+    {
+      "name": "Scrolling Layer",
+      "bounds": [800, 600],
+      "drawsContent": false
+    },
+    {
+      "name": "Scrolling Contents Layer",
+      "bounds": [800, 2016],
+      "contentsOpaque": true,
+      "backgroundColor": "#FFFFFF",
+      "paintInvalidations": [
+        {
+          "object": "LayoutBlockFlow HTML",
+          "rect": [8, 8, 192, 192],
+          "reason": "chunk appeared"
+        }
+      ]
+    }
+  ],
+  "objectPaintInvalidations": [
+    {
+      "object": "LayoutBlockFlow BODY",
+      "reason": "style change"
+    },
+    {
+      "object": "LayoutBlockFlow DIV id='container' class='fixed blue'",
+      "reason": "style change"
+    },
+    {
+      "object": "LayoutBlockFlow (positioned) DIV class='absolute green'",
+      "reason": "style change"
+    }
+  ]
+}
+

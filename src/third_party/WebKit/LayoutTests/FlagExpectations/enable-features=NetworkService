@@ -1,0 +1,46 @@
+# These tests currently fail when run with --enable-features=NetworkSerivce
+# See https://crbug.com/729849
+
+Bug(none) external/wpt/clear-site-data/storage.https.html [ Failure ]
+Bug(none) external/wpt/clear-site-data/navigation.https.html [ Timeout ]
+Bug(none) external/wpt/content-security-policy/generic/filesystem-urls-match-filesystem.sub.html [ Failure ]
+Bug(none) external/wpt/content-security-policy/inside-worker/dedicated-script.html [ Failure Timeout ]
+Bug(none) external/wpt/content-security-policy/inside-worker/dedicated-inheritance.html [ Failure ]
+Bug(none) external/wpt/html/browsers/offline/appcache/workers/appcache-worker.html [ Timeout ]
+crbug.com/829417 external/wpt/html/browsers/offline/appcache/workers/appcache-worker.https.html [ Timeout ]
+Bug(none) external/wpt/service-workers/service-worker/fetch-request-xhr-sync-on-worker.https.html [ Timeout ]
+crbug.com/771118 external/wpt/service-workers/service-worker/mime-sniffing.https.html [ Failure ]
+Bug(none) http/tests/appcache/top-frame-3.html [ Pass Timeout ]
+Bug(none) http/tests/appcache/top-frame-4.html [ Pass Timeout ]
+Bug(none) http/tests/appcache/local-content.html [ Pass Timeout ]
+Bug(none) http/tests/appcache/offline-access.html [ Pass Timeout ]
+Bug(none) http/tests/appcache/foreign-fallback.html [ Pass Timeout ]
+Bug(none) http/tests/appcache/main-resource-redirect.html [ Pass Timeout ]
+Bug(none) http/tests/appcache/reload.html [ Pass Timeout ]
+
+# Passes on NetworkService and fails on non-NetworkService because
+# NetworkService isn't affected by https://crbug.com/595993.
+Bug(none) external/wpt/service-workers/service-worker/request-end-to-end.https.html [ Pass ]
+crbug.com/830472 external/wpt/service-workers/service-worker/navigation-preload/broken-chunked-encoding.https.html [ Pass ]
+
+Bug(none) http/tests/misc/redirect-to-about-blank.html [ Timeout ]
+Bug(none) http/tests/security/contentSecurityPolicy/cascade/same-origin-window-open.html [ Timeout Crash ]
+Bug(none) http/tests/security/contentSecurityPolicy/cascade/same-origin-with-own-policy-window-open.html [ Timeout Crash ]
+Bug(none) http/tests/security/cookies/third-party-cookie-blocking.html [ Failure ]
+Bug(none) http/tests/security/cookies/third-party-cookie-blocking-user-action.html [ Failure ]
+Bug(none) http/tests/security/cookies/third-party-cookie-blocking-worker.html [ Failure ]
+Bug(none) http/tests/security/cookies/third-party-cookie-blocking-xslt.xml [ Failure ]
+Bug(none) http/tests/security/cookies/websocket/third-party-cookie-blocked-on-cross-origin-websocket.html [ Failure ]
+Bug(none) http/tests/security/cookies/websocket/third-party-cookie-blocked-on-same-origin-websocket.html [ Failure ]
+Bug(none) http/tests/security/cookies/websocket/third-party-cookie-blocked.html [ Failure ]
+Bug(none) http/tests/security/cors-rfc1918 [ Crash Timeout ]
+Bug(none) http/tests/security/mime-type-execute-as-html-01.html [ Failure ]
+Bug(none) http/tests/security/mime-type-execute-as-html-04.html [ Failure ]
+Bug(none) http/tests/security/mixedContent/filesystem-url-in-iframe.html [ Failure Timeout ]
+
+# Cross-Origin Read Blocking is not implemented.
+crbug.com/792546 http/tests/inspector-protocol/network/block_cross_site_document_load.js [ Failure ]
+crbug.com/792546 external/wpt/fetch/corb/img-mime-types-coverage.tentative.sub.html [ Failure ]
+crbug.com/792546 external/wpt/fetch/corb/img-png-mislabeled-as-html-nosniff.tentative.sub.html [ Failure ]
+crbug.com/792546 external/wpt/fetch/corb/preload-image-png-mislabeled-as-html-nosniff.tentative.sub.html [ Failure ]
+crbug.com/792546 external/wpt/fetch/corb/script-html-correctly-labeled.tentative.sub.html [ Failure ]
