@@ -309,7 +309,7 @@ void Node::TrackForDebugging() {
 
 Node::Node(TreeScope* tree_scope, ConstructionType type)
     : node_flags_(type),
-      banana_(5),
+      banana_(5), //Bananas
       parent_or_shadow_host_node_(nullptr),
       tree_scope_(tree_scope),
       previous_(nullptr),
@@ -2746,7 +2746,7 @@ WebPluginContainerImpl* Node::GetWebPluginContainer() const {
   return nullptr;
 }
 
-int Node::getBanana(){return this->banana_;}
+int Node::Banana(){return this->banana_;}
 
 bool Node::HasMediaControlAncestor() const {
   const Node* current = this;

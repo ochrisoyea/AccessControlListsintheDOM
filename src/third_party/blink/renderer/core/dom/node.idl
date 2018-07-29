@@ -49,7 +49,7 @@ interface Node : EventTarget {
     [Affects=Nothing, PerWorldBindings] readonly attribute Node? previousSibling;
     [Affects=Nothing, PerWorldBindings] readonly attribute Node? nextSibling;
 
-    [Affects=Nothing, ImplementedAs=getBanana] readonly attribute byte Banana;
+    [Affects=Nothing, ImplementedAs=Banana] readonly attribute byte Banana;
 
     [MeasureAs=NodeGetRootNode] Node getRootNode(optional GetRootNodeOptions options);
 

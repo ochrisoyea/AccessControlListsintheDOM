@@ -15,7 +15,7 @@
 			"file": "src/third_party/blink/renderer/core/dom/node.h",
 			"settings":
 			{
-				"buffer_size": 39499,
+				"buffer_size": 39507,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -24,7 +24,7 @@
 			"file": "src/third_party/blink/renderer/core/dom/node.cc",
 			"settings":
 			{
-				"buffer_size": 98944,
+				"buffer_size": 98951,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -33,16 +33,7 @@
 			"file": "src/third_party/blink/renderer/core/dom/node.idl",
 			"settings":
 			{
-				"buffer_size": 4469,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/tools/testAddingtoNode.htm",
-			"settings":
-			{
-				"buffer_size": 468,
+				"buffer_size": 4466,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -113,7 +104,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -127,6 +118,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"banan",
+			"bana",
 			"parentNode",
 			"getDocument",
 			"getBanana",
@@ -162,7 +155,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -171,15 +164,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39499,
+						"buffer_size": 39507,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31462,
-								31462
+								31455,
+								31455
 							]
 						],
 						"settings":
@@ -189,7 +182,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12005.0,
+						"translation.y": 12229.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -201,15 +194,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 98944,
+						"buffer_size": 98951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								97116,
-								97116
+								97158,
+								97158
 							]
 						],
 						"settings":
@@ -219,7 +212,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 40565.0,
+						"translation.y": 40939.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -231,15 +224,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4469,
+						"buffer_size": 4466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2625,
-								2625
+								2663,
+								2663
 							]
 						],
 						"settings":
@@ -249,35 +242,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/third_party/blink/tools/testAddingtoNode.htm",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 468,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								458,
-								458
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 555.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

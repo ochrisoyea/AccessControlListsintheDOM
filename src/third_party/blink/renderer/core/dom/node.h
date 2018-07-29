@@ -829,7 +829,7 @@ class CORE_EXPORT Node : public EventTarget {
   void TraceWrappers(ScriptWrappableVisitor*) const override;
 
 
-  int getBanana();
+  int Banana();
 
  private:
   enum NodeFlags {
@@ -995,6 +995,7 @@ class CORE_EXPORT Node : public EventTarget {
   const HeapHashSet<TraceWrapperMember<MutationObserverRegistration>>*
   TransientMutationObserverRegistry();
 
+//Bananas!
   uint32_t node_flags_;
   int banana_;
   TraceWrapperMember<Node> parent_or_shadow_host_node_;
