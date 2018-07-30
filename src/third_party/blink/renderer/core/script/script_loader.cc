@@ -72,7 +72,8 @@ ScriptLoader::ScriptLoader(ScriptElementBase* element,
       will_be_parser_executed_(false),
       will_execute_when_document_finished_parsing_(false),
       created_during_document_write_(created_during_document_write),
-      async_exec_type_(ScriptRunner::kNone) {
+      async_exec_type_(ScriptRunner::kNone)
+       {
   // <spec
   // href="https://html.spec.whatwg.org/multipage/scripting.html#already-started">
   // ... The cloning steps for script elements must set the "already started"
@@ -251,9 +252,18 @@ bool ScriptLoader::IsScriptTypeSupported(LegacyTypeSupport support_legacy_types,
                                       support_legacy_types, out_script_type);
 }
 
+
+
+void ScriptLoader::setHasExecutePermissions(bool permit){has_execute_permissions_ = permit;}
+bool ScriptLoader::HasExecutePermissions(){return has_execute_permissions_;}
+
 // https://html.spec.whatwg.org/multipage/scripting.html#prepare-a-script
 bool ScriptLoader::PrepareScript(const TextPosition& script_start_position,
                                  LegacyTypeSupport support_legacy_types) {
+  //Tests if the Script HasExecutePermissions
+  if (!has_execute_permissions_)
+    return false;
+
   // <spec step="1">If the script element is marked as having "already started",
   // then return. The script is not executed.</spec>
   if (already_started_)

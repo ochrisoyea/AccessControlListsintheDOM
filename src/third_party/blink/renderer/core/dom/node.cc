@@ -2747,6 +2747,7 @@ WebPluginContainerImpl* Node::GetWebPluginContainer() const {
 }
 
 int Node::Banana(){return this->banana_;}
+void Node::setBanana(int num){banana_=num;}
 
 bool Node::HasMediaControlAncestor() const {
   const Node* current = this;

@@ -165,6 +165,9 @@ class CORE_EXPORT Node : public EventTarget {
 
   // DOM methods & attributes for Node
 
+  void setBanana(int);
+  int Banana();
+
   bool HasTagName(const HTMLQualifiedName&) const;
   bool HasTagName(const SVGQualifiedName&) const;
   virtual String nodeName() const = 0;
@@ -829,7 +832,6 @@ class CORE_EXPORT Node : public EventTarget {
   void TraceWrappers(ScriptWrappableVisitor*) const override;
 
 
-  int Banana();
 
  private:
   enum NodeFlags {

@@ -60,6 +60,9 @@ class CORE_EXPORT ScriptLoader : public GarbageCollectedFinalized<ScriptLoader>,
                             created_during_document_write);
   }
 
+  void setHasExecutePermissions(bool);
+  bool HasExecutePermissions();
+
   ~ScriptLoader() override;
   void Trace(blink::Visitor*) override;
   void TraceWrappers(ScriptWrappableVisitor*) const override;
@@ -154,6 +157,7 @@ class CORE_EXPORT ScriptLoader : public GarbageCollectedFinalized<ScriptLoader>,
   bool IgnoresLoadRequest() const;
   bool IsScriptForEventSupported() const;
 
+
   // FetchClassicScript corresponds to Step 21.6 of
   // https://html.spec.whatwg.org/multipage/scripting.html#prepare-a-script
   // and must NOT be called from outside of PendingScript().
@@ -183,6 +187,9 @@ class CORE_EXPORT ScriptLoader : public GarbageCollectedFinalized<ScriptLoader>,
 
   Member<ScriptElementBase> element_;
   WTF::OrdinalNumber start_line_number_;
+
+  //Sets the Script Loaders HasExecutePermissions boolean to true by default
+  bool has_execute_permissions_ =true;
 
   // https://html.spec.whatwg.org/multipage/scripting.html#script-processing-model
   // "A script element has several associated pieces of state.":

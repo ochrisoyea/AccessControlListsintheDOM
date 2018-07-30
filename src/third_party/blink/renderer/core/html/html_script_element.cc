@@ -49,7 +49,26 @@ inline HTMLScriptElement::HTMLScriptElement(Document& document,
 
 HTMLScriptElement* HTMLScriptElement::Create(Document& document,
                                              const CreateElementFlags flags) {
-  return new HTMLScriptElement(document, flags);
+  HTMLScriptElement* element = new HTMLScriptElement(document, flags);
+  
+  //this was the first test to see if the HTMLScriptElement's ScriptLoader
+  //was always initialized by this point. It should be, because the 
+  //InitializeScriptLoader command is called in the actual constructor but I 
+  //needed to verify.
+  //For this test I made the Banana property setable globally so I can use it
+  //for testing.
+  if (element->Banana() == 5){
+    if (element->loader_ == NULL){element->setBanana(6);}
+  }
+  return element;
+
+  //This was the second test. I created a boolean in the ScriptLoader class 
+  //and I set it here based on the value of Banana.
+  if (element->Banana() == 5){
+    element->loader_->setHasExecutePermissions(false);
+  }
+  return element;
+  //return new HTMLScriptElement(document, flags)
 }
 
 bool HTMLScriptElement::IsURLAttribute(const Attribute& attribute) const {
@@ -122,6 +141,8 @@ bool HTMLScriptElement::async() const {
 
 KURL HTMLScriptElement::Src() const {
   return GetDocument().CompleteURL(SourceAttributeValue());
+//maybe here, but it has to return something right?
+
 }
 
 String HTMLScriptElement::SourceAttributeValue() const {
@@ -216,6 +237,9 @@ void HTMLScriptElement::SetScriptElementForBinding(
     HTMLScriptElementOrSVGScriptElement& element) {
   if (!IsInV1ShadowTree())
     element.SetHTMLScriptElement(this);
+  
+  //put my restriction here?
+  //not a stable location for this inconsistently blocked script loading
 }
 
 Element* HTMLScriptElement::CloneWithoutAttributesAndChildren(

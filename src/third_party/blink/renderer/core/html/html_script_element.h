@@ -96,8 +96,7 @@ class CORE_EXPORT HTMLScriptElement final : public HTMLElement,
                                ContentSecurityPolicy::InlineType) override;
   void DispatchLoadEvent() override;
   void DispatchErrorEvent() override;
-  void SetScriptElementForBinding(
-      HTMLScriptElementOrSVGScriptElement&) override;
+  void SetScriptElementForBinding(HTMLScriptElementOrSVGScriptElement&) override;
 
   Element* CloneWithoutAttributesAndChildren(Document&) const override;
 
