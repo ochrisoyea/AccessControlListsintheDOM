@@ -12,29 +12,26 @@
 	"buffers":
 	[
 		{
-			"file": "src/third_party/blink/renderer/core/dom/node.h",
+			"file": "src/third_party/blink/renderer/core/html/parser/html_tree_builder.h",
 			"settings":
 			{
-				"buffer_size": 39507,
-				"encoding": "UTF-8",
+				"buffer_size": 10237,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/third_party/blink/renderer/core/dom/node.cc",
+			"file": "src/third_party/blink/renderer/core/html/parser/html_tree_builder.cc",
 			"settings":
 			{
-				"buffer_size": 98951,
-				"encoding": "UTF-8",
+				"buffer_size": 98309,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/third_party/blink/renderer/core/dom/node.idl",
+			"file": "src/third_party/blink/renderer/core/html/html_title_element.cc",
 			"settings":
 			{
-				"buffer_size": 4466,
-				"encoding": "UTF-8",
+				"buffer_size": 3288,
 				"line_ending": "Unix"
 			}
 		}
@@ -79,19 +76,45 @@
 		"/media/subtlecow/SSD/chromium/src/third_party/blink",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core",
-		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom"
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html"
 	],
 	"file_history":
 	[
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/html_tree_builder.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/html_title_element.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/html_document.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/tools/testAddingtoNode.htm",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/html_document_parser.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/html_tree_builder.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/html_token.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/compact_html_token.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/compact_html_token.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/atomic_html_token.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/text_document_parser.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/html_construction_site.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/input_stream_preprocessor.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/frame/dom_window.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/container_node.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/document.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/frame/dom_window.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/page/page.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/page/page.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/page/frame_tree.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/page/frame_tree.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/frame/frame.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/frame/frame.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/frame/frame_client.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/html_title_element.idl",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/html_title_element.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.idl",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.h",
 		"/media/subtlecow/SSD/chromium/src/out/Default/gen/third_party/blink/renderer/bindings/core/v8/v8_node.cc",
 		"/media/subtlecow/SSD/chromium/src/out/Default/gen/third_party/blink/renderer/bindings/core/v8/v8_node.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node_list.idl",
 		"/media/subtlecow/SSD/chromium/src/chrome/browser/ui/views/toolbar/toolbar_view.cc",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/document.cc",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/document.idl",
-		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.h",
-		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/document.h",
 		"/media/subtlecow/SSD/chromium/src/ui/views/linux_ui/linux_ui.h",
 		"/media/subtlecow/SSD/chromium/src/ui/views/controls/menu/menu_delegate.h",
 		"/media/subtlecow/SSD/chromium/src/ui/strings/translations/ui_strings_en-GB.xtb",
@@ -104,7 +127,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -118,6 +141,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ProcessGenericRCDATAStartTag",
+			"title",
+			"ProcessGenericRCDATAStartTag",
+			"ProcessStartTagForInHead",
+			"Title",
+			"type_",
+			"ContructTree",
+			"document",
+			".\n",
+			"DOMWindow",
 			"banan",
 			"bana",
 			"parentNode",
@@ -160,19 +193,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/third_party/blink/renderer/core/dom/node.h",
+					"file": "src/third_party/blink/renderer/core/html/parser/html_tree_builder.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39507,
+						"buffer_size": 10237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31455,
-								31455
+								0,
+								0
 							]
 						],
 						"settings":
@@ -182,7 +215,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12229.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -190,19 +223,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/third_party/blink/renderer/core/dom/node.cc",
+					"file": "src/third_party/blink/renderer/core/html/parser/html_tree_builder.cc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 98951,
+						"buffer_size": 98309,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								97158,
-								97158
+								0,
+								0
 							]
 						],
 						"settings":
@@ -212,7 +245,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 40939.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -220,29 +253,29 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/third_party/blink/renderer/core/dom/node.idl",
+					"file": "src/third_party/blink/renderer/core/html/html_title_element.cc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4466,
+						"buffer_size": 3288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2663,
-								2663
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 555.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -328,7 +361,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 257.0,
+	"side_bar_width": 460.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

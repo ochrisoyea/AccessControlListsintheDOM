@@ -2571,7 +2571,7 @@ void HTMLTreeBuilder::ProcessGenericRCDATAStartTag(AtomicHTMLToken* token) {
   if (parser_->Tokenizer())
     parser_->Tokenizer()->SetState(HTMLTokenizer::kRCDATAState);
   original_insertion_mode_ = insertion_mode_;
-  SetInsertionMode(kTextMode);
+  SetInsertionMode(kInBodyMode);
 }
 
 void HTMLTreeBuilder::ProcessGenericRawTextStartTag(AtomicHTMLToken* token) {

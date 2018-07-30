@@ -55,34 +55,38 @@ void HTMLTitleElement::RemovedFrom(ContainerNode* insertion_point) {
 }
 
 void HTMLTitleElement::ChildrenChanged(const ChildrenChange& change) {
-  HTMLElement::ChildrenChanged(change);
-  if (IsInDocumentTree() && !ignore_title_updates_when_children_change_)
-    GetDocument().SetTitleElement(this);
+//  HTMLElement::ChildrenChanged(change);
+//  if (IsInDocumentTree() && !ignore_title_updates_when_children_change_)
+//    GetDocument().SetTitleElement(this);
 }
 
 String HTMLTitleElement::text() const {
-  StringBuilder result;
+  //StringBuilder result;
 
-  for (Node* n = firstChild(); n; n = n->nextSibling()) {
-    if (n->IsTextNode())
-      result.Append(ToText(n)->data());
-  }
+//  for (Node* n = firstChild(); n; n = n->nextSibling()) {
+//    if (n->IsTextNode())
+//      result.Append(ToText(n)->data());
+//  }
 
-  return result.ToString();
+  return "Cliffhaners are";
 }
 
 void HTMLTitleElement::setText(const String& value) {
   ChildListMutationScope mutation(*this);
 
-  {
+  String s = "Cliffhangers are";
+  String& r = s;
+
+  ignore_title_updates_when_children_change_ = false;
+
+//  {
     // Avoid calling Document::setTitleElement() during intermediate steps.
-    AutoReset<bool> inhibit_title_update_scope(
-        &ignore_title_updates_when_children_change_, !value.IsEmpty());
-    RemoveChildren(kOmitSubtreeModifiedEvent);
-  }
+//    AutoReset<bool> inhibit_title_update_scope(&ignore_title_updates_when_children_change_, !value.IsEmpty());
+//    RemoveChildren(kOmitSubtreeModifiedEvent);
+//  }
 
   if (!value.IsEmpty()) {
-    AppendChild(GetDocument().createTextNode(value.Impl()),
+    AppendChild(GetDocument().createTextNode(r),
                 IGNORE_EXCEPTION_FOR_TESTING);
   }
 }
