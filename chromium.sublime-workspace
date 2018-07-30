@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"canrun",
+				"canrun_"
+			],
+			[
+				"canr",
+				"canrun_"
+			],
+			[
 				"string",
 				"string16"
 			]
@@ -12,10 +20,11 @@
 	"buffers":
 	[
 		{
-			"file": "src/third_party/blink/renderer/core/dom/document.h",
+			"file": "src/third_party/blink/tools/testAddingtoNode.htm",
 			"settings":
 			{
-				"buffer_size": 67257,
+				"buffer_size": 475,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -40,92 +49,7 @@
 			"file": "src/third_party/blink/renderer/core/html/html_script_element.cc",
 			"settings":
 			{
-				"buffer_size": 8360,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/dom/mutation_record.h",
-			"settings":
-			{
-				"buffer_size": 3461,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/dom/node.h",
-			"settings":
-			{
-				"buffer_size": 39531,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/dom/node.cc",
-			"settings":
-			{
-				"buffer_size": 98995,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/dom/element.h",
-			"settings":
-			{
-				"buffer_size": 50620,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/html/html_element.h",
-			"settings":
-			{
-				"buffer_size": 9743,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/dom/element.cc",
-			"settings":
-			{
-				"buffer_size": 181291,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/dom/container_node.h",
-			"settings":
-			{
-				"buffer_size": 19955,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/dom/container_node.cc",
-			"settings":
-			{
-				"buffer_size": 58749,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/renderer/core/html/html_element.cc",
-			"settings":
-			{
-				"buffer_size": 57262,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/third_party/blink/tools/testAddingtoNode.htm",
-			"settings":
-			{
-				"buffer_size": 475,
+				"buffer_size": 8987,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -134,7 +58,8 @@
 			"file": "src/third_party/blink/renderer/core/script/script_loader.h",
 			"settings":
 			{
-				"buffer_size": 10461,
+				"buffer_size": 10651,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -142,7 +67,8 @@
 			"file": "src/third_party/blink/renderer/core/script/script_loader.cc",
 			"settings":
 			{
-				"buffer_size": 40819,
+				"buffer_size": 41097,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -212,11 +138,20 @@
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom",
-		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/script"
 	],
 	"file_history":
 	[
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/script/pending_script.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/document.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/html_element.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/container_node.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/container_node.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/element.cc",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/html_element.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/element.h",
+		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.cc",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/create_element_flags.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/script/script_runner.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/script/script_runner.cc",
@@ -234,8 +169,6 @@
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/html_construction_site.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/parser/input_stream_preprocessor.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/frame/dom_window.cc",
-		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/container_node.h",
-		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/document.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/frame/dom_window.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/page/page.cc",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/page/page.h",
@@ -247,8 +180,6 @@
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/html_title_element.idl",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/html/html_title_element.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.idl",
-		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.cc",
-		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node.h",
 		"/media/subtlecow/SSD/chromium/src/out/Default/gen/third_party/blink/renderer/bindings/core/v8/v8_node.cc",
 		"/media/subtlecow/SSD/chromium/src/out/Default/gen/third_party/blink/renderer/bindings/core/v8/v8_node.h",
 		"/media/subtlecow/SSD/chromium/src/third_party/blink/renderer/core/dom/node_list.idl",
@@ -267,7 +198,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -281,6 +212,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"canrun",
+			"friend",
+			"canrun",
+			"ScriptLoader",
+			"ScriptLoader* ScriptLoader",
+			"execute",
 			"banana",
 			"ContainerNode(document",
 			"Element",
@@ -337,37 +274,36 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/third_party/blink/renderer/core/dom/document.h",
+					"file": "src/third_party/blink/tools/testAddingtoNode.htm",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 67257,
+						"buffer_size": 475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11404,
-								11404
+								475,
+								475
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4371.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -397,7 +333,7 @@
 						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -413,8 +349,8 @@
 						"selection":
 						[
 							[
-								1792,
-								1792
+								281,
+								281
 							]
 						],
 						"settings":
@@ -424,10 +360,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -436,15 +372,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8360,
+						"buffer_size": 8987,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2659,
-								2659
+								3236,
+								3236
 							]
 						],
 						"settings":
@@ -454,326 +390,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/third_party/blink/renderer/core/dom/mutation_record.h",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3461,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/third_party/blink/renderer/core/dom/node.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 39531,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5609,
-								5609
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2001.0,
+						"translation.y": 700.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src/third_party/blink/renderer/core/dom/node.cc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 98995,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97160,
-								97160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 40746.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/third_party/blink/renderer/core/dom/element.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 50620,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34300,
-								34300
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 12651.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/third_party/blink/renderer/core/html/html_element.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9743,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7244,
-								7244
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2610.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/third_party/blink/renderer/core/dom/element.cc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 181291,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								11947,
-								11947
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2700.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "src/third_party/blink/renderer/core/dom/container_node.h",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19955,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14210,
-								14210
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 5376.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "src/third_party/blink/renderer/core/dom/container_node.cc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 58749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6457,
-								6457
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1671.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "src/third_party/blink/renderer/core/html/html_element.cc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 57262,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4505,
-								4505
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1446.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "src/third_party/blink/tools/testAddingtoNode.htm",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 475,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								475,
-								475
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
+					"buffer": 4,
 					"file": "src/third_party/blink/renderer/core/script/script_loader.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10461,
+						"buffer_size": 10651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3143,
-								3143
+								2857,
+								2857
 							]
 						],
 						"settings":
@@ -783,27 +420,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2745.0,
+						"translation.y": 2560.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 5,
 					"file": "src/third_party/blink/renderer/core/script/script_loader.cc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 40819,
+						"buffer_size": 41097,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4978,
+								4978
 							]
 						],
 						"settings":
@@ -813,14 +450,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 945.0,
+						"translation.y": 880.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 6,
 					"file": "src/third_party/blink/renderer/core/script/script_element_base.cc",
 					"semi_transient": false,
 					"settings":
@@ -846,11 +483,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 7,
 					"file": "src/third_party/blink/renderer/core/script/script.h",
 					"semi_transient": false,
 					"settings":
@@ -876,11 +513,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 8,
 					"file": "src/third_party/blink/renderer/core/script/README.md",
 					"semi_transient": false,
 					"settings":
@@ -904,7 +541,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -987,7 +624,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 419.0,
+	"side_bar_width": 289.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
